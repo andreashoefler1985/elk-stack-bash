@@ -36,26 +36,26 @@ Die Installation ist in drei einfachen Schritten erledigt:
 ### 1. Skript klonen oder herunterladen
 
 ```bash
-git clone https://github.com/DEIN_BENUTZERNAME/DEIN_REPO.git
-cd DEIN_REPO
+git clone https://github.com/andreashoefler1985/elk-stack-bash.git
+cd elk-stack-bash
 ```
 
 oder lade das Skript manuell herunter:
 
 ```bash
-wget https://raw.githubusercontent.com/DEIN_BENUTZERNAME/DEIN_REPO/main/install_elk.sh
+wget https://raw.githubusercontent.com/andreashoefler1985/elk-stack-bash/main/install.sh
 ```
 
 ### 2. Skript ausführbar machen
 
 ```bash
-chmod +x install_elk.sh
+chmod +x install.sh
 ```
 
 ### 3. Skript ausführen
 
 ```bash
-sudo ./install_elk.sh
+sudo ./install.sh
 ```
 
 > ⚠️ **Wichtig**: Das Skript wird dich nach deinem Domain-Namen und deiner E-Mail-Adresse für das SSL-Zertifikat fragen. Am Ende der Installation wird das automatisch generierte Passwort für den elastic-Benutzer angezeigt. **Speichere dieses Passwort an einem sicheren Ort!**
